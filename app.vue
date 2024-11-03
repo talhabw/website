@@ -25,8 +25,8 @@
               </div>
             </div>
             <div class="sm:basis-2/5 flex justify-center sm:justify-end content-center">
-              <NuxtImg src="/images/tbw.png" alt="picture of talha" class="w-3/4 rounded-3xl" loading="lazy"
-                quality="80" format="webp" placeholder />
+              <NuxtImg src="/images/tbw.png" alt="picture of talha" class="w-3/4 rounded-3xl" quality="80" format="webp"
+                placeholder />
             </div>
           </div>
         </main>
