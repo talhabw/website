@@ -10,7 +10,10 @@ export default defineNuxtConfig({
       meta: [
         { name: 'description', content: 'Personal website of Talha Karasu' },
       ],
-    }
+      htmlAttrs: {
+        lang: 'en',
+      },
+    },
   },
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
