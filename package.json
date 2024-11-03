@@ -11,6 +11,9 @@
   },
   "dependencies": {
     "@nuxt/fonts": "^0.10.2",
+    "@nuxt/image": "^1.8.1",
+    "@nuxtjs/robots": "^4.1.10",
+    "@nuxtjs/sitemap": "^6.1.4",
     "nuxt": "^3.13.2",
     "vue": "latest",
     "vue-router": "latest"

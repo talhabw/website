@@ -19,14 +19,14 @@
                 development and several robotics competitions. working on the next big thing!
               </p>
               <div>
-                <a href="https://drive.google.com/file/d/1ojqZxYwcOa5MqnWwDWsy55TUD0YjcFof/view?usp=sharing"
-                  class="text-white mr-4" target="_blank">cv</a>
+                <a href="/files/talha-karasu-cv-en.pdf" class="text-white mr-4" target="_blank">cv</a>
                 <a href="https://www.linkedin.com/in/talhakarasu/" class="text-white mr-4" target="_blank">linkedin</a>
                 <a href="mailto:talha@karasu.me" class="text-white" target="_blank">mail</a>
               </div>
             </div>
             <div class="sm:basis-2/5 flex justify-center sm:justify-end content-center">
-              <img src="/img/tbw.png" alt="picture of talha" class="w-3/4 rounded-3xl">
+              <NuxtImg src="/images/tbw.png" alt="picture of talha" class="w-3/4 rounded-3xl" loading="lazy"
+                quality="80" format="webp" placeholder />
             </div>
           </div>
         </main>

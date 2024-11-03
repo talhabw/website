@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  site: { url: 'https://karasu.me', name: 'Talha Karasu' },
   app: {
     head: {
       title: 'Talha Karasu',
@@ -13,5 +14,8 @@ export default defineNuxtConfig({
   modules: [
     '@unocss/nuxt',
     '@nuxt/fonts',
+    '@nuxt/image',
+    '@nuxtjs/robots',
+    '@nuxtjs/sitemap',
   ],
 })
