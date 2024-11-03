@@ -16,7 +16,7 @@
               <h2 class="m-0 text-4xl">robotics enthusiasts & uni student</h2>
               <p class="text-lg">
                 hello there! i am a robotics engineering undergraduate student, with background in web
-                development and several robotics competitions. feel free to contact me for anything!
+                development and several robotics competitions. feel free to contact me about anything!
               </p>
               <div>
                 <a href="/files/talha-karasu-cv-en.pdf" class="text-white mr-4" target="_blank">cv</a>
