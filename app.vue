@@ -16,7 +16,7 @@
               <h2 class="m-0 text-4xl">robotics enthusiasts & uni student</h2>
               <p class="text-lg">
                 hello there! i am a robotics engineering undergraduate student, with background in web
-                development and several robotics competitions. working on the next big thing!
+                development and several robotics competitions. feel free to contact me for anything!
               </p>
               <div>
                 <a href="/files/talha-karasu-cv-en.pdf" class="text-white mr-4" target="_blank">cv</a>
@@ -25,7 +25,7 @@
               </div>
             </div>
             <div class="sm:basis-2/5 flex justify-center sm:justify-end content-center">
-              <NuxtImg src="/images/tbw.png" alt="picture of talha" class="w-3/4 rounded-3xl" quality="80" format="webp"
+              <NuxtImg src="/images/tbw.jpg" alt="picture of talha" class="w-3/4 rounded-3xl" quality="80" format="webp"
                 placeholder />
             </div>
           </div>
