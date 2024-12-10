@@ -28,6 +28,7 @@ export default defineNuxtConfig({
     '/cv': { redirect: '/files/talha-karasu-cv-en.pdf' },
     '/cv-en': { redirect: '/files/talha-karasu-cv-en.pdf' },
     '/cv-tr': { redirect: '/files/talha-karasu-cv-tr.pdf' },
-    '/garfield': { redirect: 'https://random-garfield.karasu.me' }
+    '/garfield': { redirect: 'https://random-garfield.karasu.me' },
+    '/g': { redirect: 'https://random-garfield.karasu.me' },
   },
 })
