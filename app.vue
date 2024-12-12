@@ -13,7 +13,7 @@
         <main>
           <div class="p-2 flex flex-col sm:flex-row sm:justify-between sm:items-center">
             <div class="sm:basis-3/5 mb-12 sm:mb-0">
-              <h2 class="m-0 text-4xl">robotics enthusiasts & uni student</h2>
+              <h2 class="m-0 text-4xl">robotics enthusiast & uni student</h2>
               <p class="text-lg">
                 hello there! i am a robotics engineering undergraduate student, with background in web
                 development and several robotics competitions. feel free to contact me about anything!
