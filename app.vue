@@ -21,7 +21,9 @@
               <div>
                 <a href="/files/talha-karasu-cv-en.pdf" class="text-white mr-4" target="_blank">cv</a>
                 <a href="https://www.linkedin.com/in/talhakarasu/" class="text-white mr-4" target="_blank">linkedin</a>
-                <a href="mailto:talha@karasu.me" class="text-white" target="_blank">mail</a>
+                <a href="mailto:talha@karasu.me" class="text-white mr-4" target="_blank">mail</a>
+                <br class="sm:hidden" />
+                <a href="https://karasu.me/garfield" class="text-orange-500" target="_blank">random garfield comic</a>
               </div>
             </div>
             <div class="sm:basis-2/5 flex justify-center sm:justify-end content-center">
