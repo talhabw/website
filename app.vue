@@ -21,7 +21,7 @@
                 feel free to contact me about anything!
               </p>
               <div>
-                <a href="/files/talha-karasu-cv-en.pdf" class="text-white mr-4" target="_blank">cv</a>
+                <a href="files/talha-karasu-cv-en.pdf" class="text-white mr-4" target="_blank">cv</a>
                 <a href="https://www.linkedin.com/in/talhakarasu/" class="text-white mr-4" target="_blank">linkedin</a>
                 <a href="mailto:talha@karasu.me" class="text-white mr-4" target="_blank">mail</a>
                 <br class="sm:hidden" />

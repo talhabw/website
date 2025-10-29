@@ -1,7 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  site: { url: 'https://karasu.me', name: 'Talha Karasu' },
+  site: { url: 'https://web.itu.edu.tr', name: 'Talha Karasu' },
   app: {
+    baseURL: '/karasu24/',
     head: {
       title: 'Talha Karasu',
       charset: "utf-8",
@@ -24,9 +25,12 @@ export default defineNuxtConfig({
     '@nuxtjs/robots',
     '@nuxtjs/sitemap',
   ],
+  robots: {
+    robotsTxt: false,
+  },
   routeRules: {
-    '/cv': { redirect: '/files/talha-karasu-cv-en.pdf' },
-    '/cv-en': { redirect: '/files/talha-karasu-cv-en.pdf' },
+    '/cv': { redirect: '/karasu24/files/talha-karasu-cv-en.pdf' },
+    '/cv-en': { redirect: '/karasu24/files/talha-karasu-cv-en.pdf' },
     '/garfield': { redirect: 'https://random-garfield.karasu.me' },
     '/g': { redirect: 'https://random-garfield.karasu.me' },
   },
