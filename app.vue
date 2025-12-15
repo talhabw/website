@@ -13,10 +13,12 @@
         <main>
           <div class="p-2 flex flex-col sm:flex-row sm:justify-between sm:items-center">
             <div class="sm:basis-3/5 mb-12 sm:mb-0">
-              <h2 class="m-0 text-4xl">robotics enthusiast & uni student</h2>
+              <h2 class="m-0 text-2xl">hello there!</h2>
               <p class="text-lg">
-                hello there! i am a robotics engineering undergraduate student, with background in web
-                development and several robotics competitions. feel free to contact me about anything!
+                i am a robotics engineering undergraduate student, these days i am interested in ai and robotics.
+              </p>
+              <p class="text-lg">
+                feel free to contact me about anything!
               </p>
               <div>
                 <a href="/files/talha-karasu-cv-en.pdf" class="text-white mr-4" target="_blank">cv</a>
@@ -27,7 +29,7 @@
               </div>
             </div>
             <div class="sm:basis-2/5 flex justify-center sm:justify-end content-center">
-              <NuxtImg src="/images/tbw.jpg" alt="picture of talha" class="w-3/4 rounded-3xl" quality="80" format="webp"
+              <NuxtImg src="/images/talhabw.jpg" alt="picture of talha" class="w-3/4 rounded-3xl" quality="80" format="webp"
                 placeholder />
             </div>
           </div>
