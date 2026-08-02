@@ -2,7 +2,7 @@
 const projects = [
   {
     name: 'ITU AUV Software',
-    year: '2024–present',
+    year: '2024–2026',
     description: 'The ITU AUV Team’s main software stack, bringing together vehicle control, navigation, simulation, hardware integration, teleoperation, and computer vision.',
     tags: ['ROS', 'Python', 'C++', 'Robotics'],
     href: 'https://github.com/itu-auv/auv-software',
@@ -16,7 +16,7 @@ const projects = [
   },
   {
     name: 'AutoSeg',
-    year: '2025',
+    year: '2026',
     description: 'An image segmentation annotation tool with SAM-powered mask generation and automatic propagation across sequential images using visual encoders.',
     tags: ['Python', 'Computer Vision', 'SAM', 'DINOv3'],
     href: 'https://github.com/talhabw/autoseg',
@@ -77,7 +77,7 @@ const projects = [
 
       <section id="about" class="section about" aria-labelledby="about-title">
         <div class="section-content">
-          <h2 id="about-title">About</h2>
+          <h2 id="about-title">hi!</h2>
           <div class="about-copy">
             <p>
               i'm an undergraduate at
@@ -111,7 +111,7 @@ const projects = [
           <div class="project-list">
             <article v-for="project in projects" :key="project.name" class="project">
               <div class="project-title">
-                <h3>{{ project.name }}</h3>
+                <h3><a :href="project.href" target="_blank" rel="noreferrer">{{ project.name }}</a></h3>
                 <span>{{ project.year }}</span>
               </div>
               <p>{{ project.description }}</p>
@@ -136,7 +136,7 @@ const projects = [
   --ink: #fffaf0;
   --muted: #eadff2;
   --quiet: #b99bce;
-  --accent: #f3c969;
+  --accent: #f97316;
   --rule: rgb(240 220 255 / 24%);
   --tag: rgb(255 255 255 / 9%);
 }
@@ -275,7 +275,7 @@ h1 {
 }
 
 .contact-links .garfield-link svg {
-  stroke: #f97316;
+  stroke: currentColor;
 }
 
 .contact-links .garfield-link:hover,
@@ -297,7 +297,7 @@ h1 {
   height: 16px;
   margin-right: 5px;
   fill: none;
-  stroke: var(--quiet);
+  stroke: currentColor;
   stroke-width: 1.7;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -305,7 +305,7 @@ h1 {
 }
 
 .section {
-  margin-top: 38px;
+  margin-top: 100px;
   scroll-margin-top: 24px;
 }
 
@@ -364,6 +364,17 @@ h2 {
   margin-bottom: 5px;
   font-size: 19px;
   font-weight: 500;
+}
+
+.project h3 a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 160ms ease;
+}
+
+.project h3 a:hover,
+.project h3 a:focus-visible {
+  color: var(--accent);
 }
 
 .project-title > span {
@@ -451,7 +462,7 @@ footer p {
   }
 
   .section {
-    margin-top: 32px;
+    margin-top: 100px;
   }
 
   .project-footer {
