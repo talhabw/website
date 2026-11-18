@@ -15,11 +15,11 @@ const projects = [
     href: 'https://github.com/talhabw/auvrl',
   },
   {
-    name: 'AutoSeg',
+    name: 'AgentSeg',
     year: '2026',
-    description: 'An image segmentation annotation tool with SAM-powered mask generation and automatic propagation across sequential images using visual encoders.',
-    tags: ['Python', 'Computer Vision', 'SAM', 'DINOv3'],
-    href: 'https://github.com/talhabw/autoseg',
+    description: 'An agentic annotation tool for segmentation models. A coding agent drives SAM 3 to mask and track objects across video frames, detects and fixes tracking failures, and exports YOLO / COCO labels, with a live web UI for review and manual labeling.',
+    tags: ['Python', 'Computer Vision', 'SAM 3', 'AI Agents'],
+    href: 'https://github.com/talhabw/agentseg',
   },
   {
     name: 'Thought Completion',
