@@ -63,11 +63,11 @@ const projects = [
               <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 4m0 2a2 2 0 1 0 0-4 2 2 0 0 0 0 4M2 9h4v12H2zM10 9h4v2c.9-1.5 2.3-2.3 4-2.2 3 0 4 2 4 5.2v7h-4v-6c0-1.5-.5-2.5-2-2.5s-2 1-2 2.5v6h-4z" /></svg>
               LinkedIn
             </a>
-            <a href="/files/talha-karasu-cv-en.pdf" target="_blank">
+            <a href="files/talha-karasu-cv-en.pdf" target="_blank">
               <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M14 3v4a1 1 0 0 0 1 1h4M5 13v-8a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2h-5M2 19l2 2 4-4" /></svg>
               CV
             </a>
-            <a class="garfield-link" href="/garfield" target="_blank">
+            <a class="garfield-link" href="garfield" target="_blank">
               <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M11 16.5c0 1.4-1.3 2.5-3 2.5s-3-1.1-3-2.5S6.3 14 8 14s3 1.1 3 2.5zm8 0c0 1.4-1.3 2.5-3 2.5s-3-1.1-3-2.5 1.3-2.5 3-2.5 3 1.1 3 2.5zM15.5 8c0 1.4-1.1 2.5-2.5 2.5S10.5 9.4 10.5 8 11.6 5.5 13 5.5s2.5 1.1 2.5 2.5zM9 10.5C9 11.9 7.9 13 6.5 13S4 11.9 4 10.5 5.1 8 6.5 8 9 9.1 9 10.5zm11 0c0 1.4-1.1 2.5-2.5 2.5S15 11.9 15 10.5 16.1 8 17.5 8s2.5 1.1 2.5 2.5z" /></svg>
               random garfield comic
             </a>

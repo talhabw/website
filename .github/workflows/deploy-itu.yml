@@ -1,0 +1,47 @@
+name: Deploy to web.itu.edu.tr
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-itu
+  cancel-in-progress: true
+
+env:
+  DEPLOY_HOST: ssh.itu.edu.tr
+  DEPLOY_USER: karasu24
+  DEPLOY_PATH: web.itu.edu.tr/public_html/
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 26.x
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Build static site for ITU
+        run: pnpm generate
+        env:
+          ITU_BUILD: "1"
+
+      - name: Set up SSH
+        run: |
+          install -m 700 -d ~/.ssh
+          echo "${{ secrets.ITU_SSH_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          echo "${{ env.DEPLOY_HOST }} ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICoPJZEZXBVoGPN7/GEMCZooEuJYVTLhiWotSYYyvN9Y" > ~/.ssh/known_hosts
+
+      - name: Upload
+        run: |
+          rsync -rlt --delete --chmod=D701,Du+rwx,Do+rx,F604 \
+            .output/public/ "$DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH"
