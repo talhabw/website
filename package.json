@@ -19,6 +19,9 @@
     "vue-router": "latest"
   },
   "packageManager": "pnpm@10.25.0",
+  "engines": {
+    "node": "26.x"
+  },
   "devDependencies": {
     "@unocss/nuxt": "^0.63.6",
     "@unocss/preset-uno": "^0.63.6",
